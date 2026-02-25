@@ -1,0 +1,50 @@
+.gift-main{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 10px;
+    padding: 20px;
+}
+.gift-main h3{
+    font-size: 22px;
+}
+.empty-gift{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 30px;
+}
+.nav-gift p{
+    padding: 15px;
+    color: #797a7d;
+    font-size: 15px;
+}
+
+.nav-gift{
+    border-bottom: 1px solid rgb(191, 191, 191);
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+.empty-gift p{
+    padding: 20px;
+    font-size: 18px;
+}
+.empty-gift h1{
+    border: 1px solid #EF4056;
+    background-color: #EF4056;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+}

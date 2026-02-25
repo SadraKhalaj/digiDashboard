@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  direction: rtl;
+  text-decoration: none;
+  font-family: 'Vazir', sans-serif;
+}
+
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('Vazir.woff2') format('woff2');
+}
