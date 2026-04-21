@@ -43,6 +43,9 @@ function Navbar() {
           <li>
             <NavLink to="/dashboard">ورود به پنل</NavLink>
           </li>
+          <li>
+            <NavLink to="logIn"><p className="signUp">ورود به حساب</p></NavLink>
+          </li>
         </ul>
       </nav>
     </>

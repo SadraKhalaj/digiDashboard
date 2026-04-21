@@ -54,3 +54,16 @@ a{
 .active{
     color: #EF4056;
 }
+
+.signUp{
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid red;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    color: black;
+}

@@ -10,6 +10,8 @@ import DashboardList from './pages/DashboardList/DashboardList';
 import DashboardComments from './pages/DashboardComments/DashboardComments';
 import DashboardAdresses from './pages/DashboardAdresses/DashboardAdresses';
 import DashboardGift from './pages/DashboardGift/DashboardGift';
+import NotFound from './pages/NotFound/NotFound';
+import LoginPage from './pages/LoginPage/LoginPage';
 
 function App() {
   
@@ -30,6 +32,8 @@ function App() {
               <Route path="adresses" element={<DashboardAdresses />} />
               <Route path="giftcard" element={<DashboardGift />} />
             </Route>
+            <Route path="logIn" element={<LoginPage />} />
+            <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
       </BrowserRouter>
